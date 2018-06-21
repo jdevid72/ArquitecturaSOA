@@ -1,0 +1,11 @@
+index.html es el mapa principal 
+GenerarXml.php genera un xml desde nuestra base datos que esta en postgres
+ubicaciones.backup es una copia de nuestra base de datos la base de datos se debe crear con el nombre de 
+ubicaciones
+lacucharabrava.php es el wsdl que se genera de manera local desde nuestra base datos en mysql
+Client.php es el que consume el servio creado de wsdl 
+la carpeta lib contiene Nusoap que sirve para crear servicios wsdl en php con esta carpeta estamos creando un servicio local
+lacucharabrava.php extrae la base de datos para generar un servicio desde mysql extrae informacion y Client.php utiliza dicho servicio en nuestro index.html
+En los Archivos Incluimos una copia de mysql que seria lacucharabrava.sql esta base datos utlizaremos para genrar un servicio
+y ese servicio sera consumido desde los puntos ubicados en nuestro mapa osea el Client.php nos mostrara la informacion de que si hay mesas disponibles o no
+!GRACIAS¡
